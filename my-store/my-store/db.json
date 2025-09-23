@@ -1,0 +1,175 @@
+[{
+    "productId": 1,
+    "productName": "iPhone",
+    "sku": "string",
+    "description": "I have a good Product",
+    "createdAt": "2025-07-21T12:55:53.394578",
+    "category": {
+      "id": 7,
+      "name": "SmartPhones",
+      "description": "string",
+      "parentId": {
+        "id": 5,
+        "name": "Electronics",
+        "description": "I have a Good ELECTRONICS",
+        "parentId": null
+      }
+    },
+    "updatedAt": "2025-08-04T12:46:20.571209"
+  },
+  {
+    "productId": 2,
+    "productName": "Formal",
+    "sku": "string",
+    "description": "I have a good Product",
+    "createdAt": "2025-07-21T13:20:25.344053",
+    "category": {
+      "id": 2,
+      "name": "Cotton",
+      "description": "I have a good Product",
+      "parentId": null
+    },
+    "updatedAt": null
+  },
+  {
+    "productId": 3,
+    "productName": "Coat Pant",
+    "sku": "string",
+    "description": "I have a good Product",
+    "createdAt": "2025-07-21T13:53:59.723393",
+    "category": {
+      "id": 3,
+      "name": "Cloth",
+      "description": "I have a good Product",
+      "parentId": {
+        "id": 2,
+        "name": "Cotton",
+        "description": "I have a good Product",
+        "parentId": null
+      }
+    },
+    "updatedAt": "2025-08-04T13:11:54.41474"
+  },
+  {
+    "productId": 4,
+    "productName": "I phone 12",
+    "sku": "string",
+    "description": "string",
+    "createdAt": "2025-07-28T16:31:25.225534",
+    "category": {
+      "id": 6,
+      "name": "I phone",
+      "description": "string",
+      "parentId": {
+        "id": 5,
+        "name": "Electronics",
+        "description": "I have a Good ELECTRONICS",
+        "parentId": null
+      }
+    },
+    "updatedAt": null
+  },
+  {
+    "productId": 5,
+    "productName": "I phone 13",
+    "sku": "string",
+    "description": "string",
+    "createdAt": "2025-07-28T16:35:49.113808",
+    "category": {
+      "id": 6,
+      "name": "I phone",
+      "description": "string",
+      "parentId": {
+        "id": 5,
+        "name": "Electronics",
+        "description": "I have a Good ELECTRONICS",
+        "parentId": null
+      }
+    },
+    "updatedAt": null
+  },
+  {
+    "productId": 6,
+    "productName": "Pulse",
+    "sku": "string",
+    "description": "I have a good Product",
+    "createdAt": "2025-07-30T12:54:10.749",
+    "category": {
+      "id": 8,
+      "name": "GROCERY",
+      "description": "I have a good Product",
+      "parentId": null
+    },
+    "updatedAt": "2025-08-04T13:22:06.314841"
+  },
+  {
+    "productId": 7,
+    "productName": "Sujji",
+    "sku": "string",
+    "description": "I have a good Product",
+    "createdAt": "2025-07-30T13:04:16.836448",
+    "category": {
+      "id": 9,
+      "name": "Sujji",
+      "description": "I have a good Product",
+      "parentId": {
+        "id": 8,
+        "name": "GROCERY",
+        "description": "I have a good Product",
+        "parentId": null
+      }
+    },
+    "updatedAt": null
+  },
+  {
+    "productId": 8,
+    "productName": "Bisscut",
+    "sku": "string",
+    "description": "string",
+    "createdAt": "2025-08-06T13:20:32.76257",
+    "category": {
+      "id": 11,
+      "name": "Bisscute",
+      "description": "string",
+      "parentId": {
+        "id": 10,
+        "name": "SNACKS",
+        "description": "string",
+        "parentId": null
+      }
+    },
+    "updatedAt": "2025-08-06T14:36:30.563732"
+  },
+  {
+    "productId": 9,
+    "productName": "toast",
+    "sku": "sde",
+    "description": "I have a good Product",
+    "createdAt": "2025-08-06T15:31:11.38739",
+    "category": {
+      "id": 10,
+      "name": "SNACKS",
+      "description": "string",
+      "parentId": null
+    },
+    "updatedAt": null
+  },
+  {
+    "productId": 10,
+    "productName": "coca cola",
+    "sku": "string",
+    "description": "I have a good Product",
+    "createdAt": "2025-08-06T15:43:04.225636",
+    "category": {
+      "id": 12,
+      "name": "Cold drink",
+      "description": "this is a description",
+      "parentId": {
+        "id": 10,
+        "name": "SNACKS",
+        "description": "string",
+        "parentId": null
+      }
+    },
+    "updatedAt": null
+  }]

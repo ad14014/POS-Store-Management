@@ -1,0 +1,13 @@
+const express=require('express')
+const route=express.Router()
+const InventoryController=require('../Controllers/AllInventoryController.js')
+const Auth=require('../Middlewares/AuthMiddleware.js')
+route.get('/GetAll',InventoryController.GetAllInventoryItems)
+route.post("/inventory/check",InventoryController.CheckInventory)
+route.post("/inventory/Update",InventoryController.UpdateInventory)
+route.post('/create',InventoryController.CreateInventory)
+route.get('/getAllinventory',InventoryController.getInventory)
+route.put('/updateinv',InventoryController.UpdateonlyInventory)
+route.delete('/:id',InventoryController.DeleteInventory)
+route.get('/:id',InventoryController.getSingleInventory)
+module.exports=route
